@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LeetcodeEditor">
+    <option name="projectConfig">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[1035]不相交的线.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/doc/content/[1035]不相交的线.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com1035" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[1035]不相交的线.java" />
+              <option name="titleSlug" value="uncrossed-lines" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[1143]最长公共子序列.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/doc/content/[1143]最长公共子序列.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com1143" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[1143]最长公共子序列.java" />
+              <option name="titleSlug" value="longest-common-subsequence" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[115]不同的子序列.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/doc/content/[115]不同的子序列.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com115" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[115]不同的子序列.java" />
+              <option name="titleSlug" value="distinct-subsequences" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[1311]获取你好友已观看的视频.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/doc/content/[1311]获取你好友已观看的视频.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com1311" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[1311]获取你好友已观看的视频.java" />
+              <option name="titleSlug" value="get-watched-videos-by-your-friends" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[1713]得到子序列的最少操作次数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/doc/content/[1713]得到子序列的最少操作次数.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com1713" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[1713]得到子序列的最少操作次数.java" />
+              <option name="titleSlug" value="minimum-operations-to-make-a-subsequence" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[2028]找出缺失的观测数据.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/doc/content/[2028]找出缺失的观测数据.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com2028" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[2028]找出缺失的观测数据.java" />
+              <option name="titleSlug" value="find-missing-observations" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[300]最长递增子序列.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/doc/content/[300]最长递增子序列.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com300" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[300]最长递增子序列.java" />
+              <option name="titleSlug" value="longest-increasing-subsequence" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[309]最佳买卖股票时机含冷冻期.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/doc/content/[309]最佳买卖股票时机含冷冻期.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com309" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[309]最佳买卖股票时机含冷冻期.java" />
+              <option name="titleSlug" value="best-time-to-buy-and-sell-stock-with-cooldown" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[392]判断子序列.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/doc/content/[392]判断子序列.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com392" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[392]判断子序列.java" />
+              <option name="titleSlug" value="is-subsequence" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[3]无重复字符的最长子串.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/doc/content/[3]无重复字符的最长子串.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com3" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[3]无重复字符的最长子串.java" />
+              <option name="titleSlug" value="longest-substring-without-repeating-characters" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[516]最长回文子序列.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/doc/content/[516]最长回文子序列.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com516" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[516]最长回文子序列.java" />
+              <option name="titleSlug" value="longest-palindromic-subsequence" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[53]最大子数组和.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/doc/content/[53]最大子数组和.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com53" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[53]最大子数组和.java" />
+              <option name="titleSlug" value="maximum-subarray" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[583]两个字符串的删除操作.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/doc/content/[583]两个字符串的删除操作.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com583" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[583]两个字符串的删除操作.java" />
+              <option name="titleSlug" value="delete-operation-for-two-strings" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[647]回文子串.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/doc/content/[647]回文子串.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com647" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[647]回文子串.java" />
+              <option name="titleSlug" value="palindromic-substrings" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[674]最长连续递增序列.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/doc/content/[674]最长连续递增序列.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com674" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[674]最长连续递增序列.java" />
+              <option name="titleSlug" value="longest-continuous-increasing-subsequence" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[693]交替位二进制数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/doc/content/[693]交替位二进制数.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com693" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[693]交替位二进制数.java" />
+              <option name="titleSlug" value="binary-number-with-alternating-bits" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[714]买卖股票的最佳时机含手续费.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/doc/content/[714]买卖股票的最佳时机含手续费.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com714" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[714]买卖股票的最佳时机含手续费.java" />
+              <option name="titleSlug" value="best-time-to-buy-and-sell-stock-with-transaction-fee" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[718]最长重复子数组.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/doc/content/[718]最长重复子数组.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com718" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[718]最长重复子数组.java" />
+              <option name="titleSlug" value="maximum-length-of-repeated-subarray" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[72]编辑距离.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/doc/content/[72]编辑距离.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com72" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[72]编辑距离.java" />
+              <option name="titleSlug" value="edit-distance" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[739]每日温度.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/doc/content/[739]每日温度.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com739" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../../../../DaerSF/leetcode/temp/leetcode/editor/cn/[739]每日温度.java" />
+              <option name="titleSlug" value="daily-temperatures" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
