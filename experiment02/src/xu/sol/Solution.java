@@ -7,6 +7,8 @@ import java.util.Stack;
 
 public class Solution {
 
+    //为了测试多路径输出，本图与示例略有不同
+    //意义：graph[i][j][0]为第i行j列向下的路长,[i][j][1]为向右的路长，不存在的设置为-1
     private static int [][][] graph = {
             {{1, 3}, {0, 2}, {2, 4}, {4, 0}, {3, -1}},
             {{4, 3}, {6, 2}, {5, 4}, {2, 2}, {1, -1}},
@@ -37,6 +39,7 @@ public class Solution {
         backtracking(dp, 4, 4, new LinkedList<String>());
     }
 
+    //回溯找路径，可以把全部路径输出
     public static void backtracking(int[][] dp, int i, int j, List<String> path) {
         if (i == 0 && j == 0) {
             for (int k = path.size() - 1; k >= 0; --k) {
@@ -86,6 +89,7 @@ public class Solution {
             System.out.println();
         }
     }
+    /*
     public static int longestPalindromeSubseq(String s) {
         int[][] dp = new int[s.length()][s.length()];
 //        dp[i][j] i 到 j 最长的回文子序列的长度
@@ -110,10 +114,10 @@ public class Solution {
             }
         }
         return ans;
-    }
+    }*/
 
 
     public static void main(String[] args) {
-        longestPalindromeSubseq("aaa");
+        Manhattan();
     }
 }
