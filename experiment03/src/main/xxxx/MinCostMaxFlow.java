@@ -121,9 +121,10 @@ public class MinCostMaxFlow {
                 temp.add(stack.pop());
             }
             stack.push(temp.get(temp.size() - 1));
-            int min = 0;
+            int min = Integer.MAX_VALUE;
             for (int i = temp.size() - 2; i >= 1; --i) {
                 stack.push(temp.get(i));
+//                if (i > 1)
                 min = Math.min(min, graph[temp.get(i + 1)][temp.get(i)]);
                 min = Math.min(min, graph[temp.get(i)][temp.get(i - 1)]);
                 if (i == 1) {
