@@ -11,7 +11,10 @@ public class MinCostMaxFlow {
     boolean[] vis;
     int[] pre;
     int[] dis;
+    int numV;
+    List<List<Integer>> paths;//存储最终的路径以及占用的带宽
 
+    //返回cost和flow
     public Map.Entry<Integer, Integer> Cost(int S, int T) {
         int totalCost = 0;
         int totalFlow = 0;
@@ -22,7 +25,7 @@ public class MinCostMaxFlow {
             }
             for (int i = pre[T]; i != -1; i = pre[edges.get(i ^ 1).to]) {
                 edges.get(i).setFlow(edges.get(i).flow + minn);
-                edges.get(i ^ 1).setFlow(edges.get(i ^ 1).flow - minn);
+//                edges.get(i ^ 1).setFlow(edges.get(i ^ 1).flow - minn);
                 totalCost += edges.get(i).cost * minn;
             }
             totalFlow += minn;
@@ -30,8 +33,10 @@ public class MinCostMaxFlow {
         return Map.entry(totalCost, totalFlow);
     }
 
-    public MinCostMaxFlow(int[][][] net) {
+    //构造函数，初始化残差图
+    public MinCostMaxFlow(int[][][] net, int numV) {
         edges = new ArrayList<>();
+        this.numV = numV;
         this.net = net;
         tot = 0;
         int len = net.length;
@@ -49,6 +54,7 @@ public class MinCostMaxFlow {
         }
     }
 
+    //加边
     private void addEdge(int x, int y) {
         if (net[x][y][0] == Integer.MAX_VALUE) {//虚拟源点到服务器是单向的，用户到虚拟汇点也是单向的但能放else里处理
             edges.add(new Edge(y, x, Integer.MAX_VALUE, 0, 0, head[y]));
@@ -63,6 +69,7 @@ public class MinCostMaxFlow {
         }
     }
 
+    //SPFA找路径
     private boolean SPFA(int S, int T) {
         Queue<Integer> queue = new LinkedList<>();
         Arrays.fill(dis, Integer.MAX_VALUE);
@@ -91,7 +98,79 @@ public class MinCostMaxFlow {
             }
         }
         return pre[T] != -1;
+    }
 
+    //残差图转为矩阵 边长为flow
+    private int[][] edge2net() {
+        int[][] matrix = new int[this.net.length][this.net.length];
+        for (Edge edge : edges) {
+            int from = edge.from;
+            int to = edge.to;
+            int flow = edge.flow;
+            matrix[from][to] = flow;
+        }
+        return matrix;
+    }
+
+    //用dfs搜索最终的路径
+    private void dfs(int T, int[][]graph, Stack<Integer> stack, boolean[] visited) {
+        if (stack.peek() == T) {
+            List<Integer> temp = new ArrayList<>();
+            List<Integer> path = new LinkedList<>();
+            while (!stack.isEmpty()) {
+                temp.add(stack.pop());
+            }
+            stack.push(temp.get(temp.size() - 1));
+            int min = 0;
+            for (int i = temp.size() - 2; i >= 1; --i) {
+                stack.push(temp.get(i));
+                min = Math.min(min, graph[temp.get(i + 1)][temp.get(i)]);
+                min = Math.min(min, graph[temp.get(i)][temp.get(i - 1)]);
+                if (i == 1) {
+                    path.add(temp.get(i) - this.numV);
+//                    System.out.print((temp.get(i) - this.numV)+ " ");
+                } else {
+                    path.add(temp.get(i));
+//                    System.out.print(temp.get(i) + " ");
+                }
+            }
+            stack.push(temp.get(0));
+//            System.out.println(min);
+            path.add(min);
+            paths.add(path);
+        } else {
+            for (int i = 0; i < graph.length; ++i) {
+                if (!visited[i] && graph[stack.peek()][i] > 0) {
+                    visited[i] = true;
+                    stack.push(i);
+                    dfs(T, graph, stack, visited);
+                    stack.pop();
+                    visited[i] = false;
+                }
+            }
+        }
+    }
+
+    //最终答案显示
+    public void display(int S, int T) {
+        Cost(S, T);
+        Stack<Integer> stack = new Stack<>();
+        boolean[] visited = new boolean[net.length];
+        Arrays.fill(visited, false);
+        stack.push(S);
+        paths = new ArrayList<>();
+        dfs(T, edge2net(), stack, visited);
+        System.out.println(paths.size());
+        showPaths();
+    }
+
+    public void showPaths() {
+        for (List<Integer> path : paths) {
+            for (Integer integer : path) {
+                System.out.print(integer + " ");
+            }
+            System.out.println();
+        }
     }
 
 

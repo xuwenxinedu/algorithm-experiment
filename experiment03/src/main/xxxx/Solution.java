@@ -34,7 +34,10 @@ public class Solution {
         Genetic genetic = new Genetic(numV, numE, people, sum, costPerServer, net);
         StringBuilder solution = genetic.getAnswer();
         if (null == solution) {
-            System.out.println("五");
+            System.out.println("无解");
+        } else {
+            System.out.println();
+            genetic.display(solution);
         }
     }
 }
