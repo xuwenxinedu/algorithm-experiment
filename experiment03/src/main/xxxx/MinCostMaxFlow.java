@@ -126,7 +126,7 @@ public class MinCostMaxFlow {
                 stack.push(temp.get(i));
 //                if (i > 1)
                 min = Math.min(min, graph[temp.get(i + 1)][temp.get(i)]);
-                min = Math.min(min, graph[temp.get(i)][temp.get(i - 1)]);
+//                min = Math.min(min, graph[temp.get(i)][temp.get(i - 1)]);
                 if (i == 1) {
                     path.add(temp.get(i) - this.numV);
 //                    System.out.print((temp.get(i) - this.numV)+ " ");
